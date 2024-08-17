@@ -1,0 +1,165 @@
+<!doctype html>
+<html leng="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" Content="width=divice-width,initial-scile=1.0">
+		<title> about html </title>
+		<style>
+			table, th, td {border:1px solid black;}
+		</style>
+		<style>
+			.myDiv{border:5px outset red;
+				background-color:lightblue;
+				text-align:center;}
+		</style>
+	</head>
+
+	<body>
+		<h1>the map and area element</h1>
+		<address>
+			<a
+			 href="mailto:webmaster@example.com>"Jon Doe></a>.<br> Visit us at:<br>
+			 Example.com<br>
+			 Box 564,Disneyland<br>
+			 USA
+			 <h1> the articale element</h1>
+
+			 <articale>
+			 	<h2>Google crome</h2>
+			 	<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+			 	 </articale>
+
+			 	 <articale>
+			 	 	<h2>Mozila Firefox</h2>
+			 	 	<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+			 	 </articale>
+
+			 	 <articale>
+			 	 <h2>Microsoft Edge</h2>
+			 	 <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+			 	 </articale>
+
+			 <h2></h2>
+		</address>
+		<a href="https//www.w3schools.com"> visit w3schools.com</a>
+		<p>Click on the computer, the phone,or the cup of coffe to go a new page and read more about the topic:</p>
+		<img src="workplace.jpg"alt="workplace"usemap="#workmap"width="400"height="379">
+		<map name="workmap">
+			<area shape="rect"
+			coords="34,44,270,350" alt="Computer" herf="computer htm">
+			<area shape ="rect"
+			coords="290,172,333,250" alt="phon"
+			herf="phone.htm">
+			<area shape="cirle"coords="337,300,44"
+			alt="Cup of coffee"coords="337,300,44"
+			alt="Cup of coffee"herf="coffee.htm">
+		</map>
+		<p> the <abbr " world health organizetion"> WHO</abbr>was founded in 1948.</p>
+		<h1> The aside eliement</h1>
+		<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+		<aside>
+			<h4>Epcot Center</h4>
+			<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events</p>
+		</aside>
+		<h1>the audio element</h1>
+		<p>Click the play button to play a sound:</p>
+		<audio Controls>
+			< source src="horce.ogg"
+			type="audio/mpeg">
+			your browser dose not support the audio element.
+		</audio>
+		<h1> The b element</h1>
+		<p> how are you?-<b>what are you doing?</b>.</p>
+		<h1><cite> Why do we use it?</cite></h1>
+		<div class="myDiv">
+			<h2>this is the heding</h2>
+			<p>It is a long established fact that a reader will be distracted <br>by the readable content of a page when looking at its layout.</p><br> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here</br><br> making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</br><br> Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</br></p>
+		</div>
+		<p>he standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+	<h1> the bdi eliment</h1>
+	<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points")</p>
+	<ul>
+		<li> user <bdi> hrefs</bdi>:60 points</li>
+		<li> user <bdi> jode</bdi>: 80 points</li>
+	</ul>
+	<p> in the example below</p>
+	<p> <bdo dir="rtl"> in the example below right-to left.</bdo></p>
+	
+	<p>heare is a quote from WWF's website:</p>
+	<blockquote cite="http://www.worldwildlife.org/who/
+	index.html">
+
+	For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>
+	  <img src="images/bird.jpg" alt="bird picture">
+	<p> For 50 years<br> WWF has been protecting<br> the future of nature.</p>
+
+	<h3><dl><dt><b><cite>Coffee</cite></b></dt></h3>
+		<dd>Black hot drink.</dd>
+	</dl>
+
+	<img src="images/coffee.jpg" alt="black coffee">
+
+	<button type="button"
+	onclick="alert('Good Morning')">Click Me!</button>
+
+	<h3> Savings table</h3>
+	<table>
+
+		<caption> Monthly savings</caption>
+		<colgroup>
+		<col span= "1" style="background-color:yellow">
+		<col style="background-color:red">
+	</colgroup>
+
+		<tr>
+			<th>month</th>
+			<th>savings</th>
+		</tr>
+		<tr>
+			<td>january</td>
+			<td>$100</td>
+		</tr>
+		<tr>
+			<td>february</td>
+			<td>$80</td>
+		</tr>
+		<tr>
+			<td>march</td>
+			<td>$90</td>
+		</tr>
+	</table>
+	<h1>The datalist eliment</h1>
+	<form action="/ action_page.php"method="get">
+		<label for="browser"> choose your browser from the list:</label>
+		<input list="browsers"name="browser"id="browser">
+		<datalist id ="browsers">
+			<option value="Edge">
+				<option value="Firefox">
+					<option value=" crome">
+						<option value="Opera">
+							<option value="safari">
+		</datalist>
+		<input type="submit">
+	</from>
+<p> <b>Note:</b> the datalist tag is not support in safari 12.0( or earlier).</p>	
+<p><cite> The Gitanjoli</cite>  is a collection of poems by the Bengali poet<del>Kazi NAzrul Islam</del><ins> Rabindronath Tagore </ins>.</p>
+<h3><cite><b>details eliment</b></cite></h3>
+<details>
+	<summary> Lorem Ipsum</summary>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</details>
+
+<P><dfn title="Wordl Health Organigetion"> WHO</dfn> it is a international organization.The United Nations agency working to promote health, keep the world safe and serve the vulnerable</P>
+
+<figure>
+	<img src="images/nature.jpg" alt="nature"width="400">
+
+	  <figcaption>Fig.1 - Tangail, Dhaka, Bangladesh.</figcaption>
+	</figure>
+
+
+
+</body>
+</html>
